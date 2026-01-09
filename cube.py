@@ -6,7 +6,8 @@ tan = Material(vec([0.7, 0.7, 0.4]), 0.6)
 gray = Material(vec([0.2, 0.2, 0.2]))
 
 # Read the triangle mesh for a 2x2x2 cube, and scale it down to 1x1x1 to fit the scene.
-vs_list = 0.5 * read_obj_triangles(open("cube1.obj"))
+vs_list = 0.5 * read_obj_triangles(open("objs/cube1.obj"))
+vs_list = 0.5 * read_obj_triangles(open("objs/cube1.obj"))
 
 scene = Scene([
     # Make a big sphere for the floor

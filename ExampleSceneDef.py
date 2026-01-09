@@ -55,7 +55,7 @@ def KDHScene(wide_angle=False):
     # load texture image (put texture_test.jpg next to this file)
 
     table_tex = from_srgb8(
-        np.array(PILImage.open("table_small.jpg").convert("RGB"))
+           np.array(PILImage.open("objs/table_small.jpg").convert("RGB"))
     )
     table_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -67,7 +67,7 @@ def KDHScene(wide_angle=False):
     )
 
     tablecloth_tex = from_srgb8(
-        np.array(PILImage.open("tablecloth_custom.png").convert("RGB"))
+        np.array(PILImage.open("objs/tablecloth_custom.png").convert("RGB"))
     )
     tablecloth_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -78,7 +78,7 @@ def KDHScene(wide_angle=False):
     )
 
     # hand t exture
-    hand_tex = from_srgb8(np.array(PILImage.open("hand.png").convert("RGB")))
+    hand_tex = from_srgb8(np.array(PILImage.open("objs/hand.png").convert("RGB")))
     hand_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
         k_s=0.6,
@@ -88,7 +88,7 @@ def KDHScene(wide_angle=False):
     )
 
     rumi_ramen_tex = from_srgb8(
-        np.array(PILImage.open("rumi_ramen.png").convert("RGB"))
+        np.array(PILImage.open("objs/rumi_ramen.png").convert("RGB"))
     )
     rumi_ramen_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -99,7 +99,7 @@ def KDHScene(wide_angle=False):
     )
 
     rumi_ramen_body_tex = from_srgb8(
-        np.array(PILImage.open("rumi_ramen_body.png").convert("RGB"))
+        np.array(PILImage.open("objs/rumi_ramen_body.png").convert("RGB"))
     )
     rumi_ramen_body_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -110,7 +110,7 @@ def KDHScene(wide_angle=False):
     )
 
     mira_ramen_tex = from_srgb8(
-        np.array(PILImage.open("mira_ramen.png").convert("RGB"))
+        np.array(PILImage.open("objs/mira_ramen.png").convert("RGB"))
     )
     mira_ramen_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -121,7 +121,7 @@ def KDHScene(wide_angle=False):
     )
 
     mira_ramen_body_tex = from_srgb8(
-        np.array(PILImage.open("mira_ramen_body.png").convert("RGB"))
+        np.array(PILImage.open("objs/mira_ramen_body.png").convert("RGB"))
     )
     mira_ramen_body_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -132,7 +132,7 @@ def KDHScene(wide_angle=False):
     )
 
     zoey_ramen_tex = from_srgb8(
-        np.array(PILImage.open("zoey_ramen.png").convert("RGB"))
+        np.array(PILImage.open("objs/zoey_ramen.png").convert("RGB"))
     )
     zoey_ramen_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -142,7 +142,7 @@ def KDHScene(wide_angle=False):
         texture_repeat=(1.0, 1.0),
     )
     zoey_ramen_body_tex = from_srgb8(
-        np.array(PILImage.open("zoey_ramen_body.png").convert("RGB"))
+        np.array(PILImage.open("objs/zoey_ramen_body.png").convert("RGB"))
     )
     zoey_ramen_body_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
@@ -153,7 +153,7 @@ def KDHScene(wide_angle=False):
     )
 
     plate_tex = from_srgb8(
-        np.array(PILImage.open("plate_small.png").convert("RGB"))
+        np.array(PILImage.open("objs/plate_small.png").convert("RGB"))
     )
     plate_textured = ray.Material(
         vec([1.0, 1.0, 1.0]),
