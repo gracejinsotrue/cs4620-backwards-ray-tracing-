@@ -1,6 +1,11 @@
-# bruh ray tracer
+# bruh python ray tracer
 
 A CPU-based ray tracer in Python. Tried to render on multiple core and killed my potato laptop a few times but worth it. Initially we complainied because it would be inherently so slow but we realize it is much more easy to debug and do math. Therefore, thank god this project was in python. Has cool texture mapping, glass refraction, and BVH acceleration. Built for Cornell's CS 4620. Software engineering hates to see us coming. 
+
+Video:
+
+https://github.com/user-attachments/assets/01faa7ae-2834-46a2-818a-715a1e7d2d47
+
 
 ## what it do
 
