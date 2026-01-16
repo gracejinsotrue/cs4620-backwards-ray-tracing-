@@ -4,6 +4,14 @@ A CPU-based ray tracer in Python. Tried to render on multiple core and killed my
 
 Also, this submission made the top grade in the class for this particular assignment!
 
+## video
+
+
+https://github.com/user-attachments/assets/208d5c23-cc23-437a-b86b-73b9d3753823
+
+
+
+
 ## what it do
 
 **Backwards (Whitted-style) ray tracer** that shoots rays from camera through pixels into the scene, calculating mathematically realistic lighting + shadows, reflections, and refractions 
